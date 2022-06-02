@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: docker.io/capr1/ks-guestbook-demo:latest
+      - image: docker.io/capr1/ks-guestbook-demo:latest@sha256:ba5b452e2111a549b30cba28a52d883a57b2a69e8bb7042466d7f09944cc89df
         name: guestbook-ui
         ports:
         - containerPort: 80
