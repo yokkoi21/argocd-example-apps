@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: docker.io/hello-world:latest@sha256:432f982638b3aefab73cc58ab28f5c16e96fdb504e8c134fc58dff4bae8bf338
+      - image: docker.io/nginx:latest@sha256:6749669a206c08db96e2da448df2cf46ec4cf09ee1fdd51ed22edc2506727827
         name: guestbook-ui
         imagePullPolicy: Always
         ports:
